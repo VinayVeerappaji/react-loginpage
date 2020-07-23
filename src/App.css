@@ -15,3 +15,34 @@ h1{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
+
+.text-content{
+  background-color: transparent;
+    color: white;
+    padding: 5px;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+.submit-button{
+  width: 10em;
+    margin: 15px;
+    background-color: red;
+    border-radius: 5px;
+    padding: 7px;
+    color: wheat;
+    font-weight: 900;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: blue;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: blue;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: blue;
+}
